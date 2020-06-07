@@ -17,7 +17,7 @@ public class Singleton {
 
 class MyClass{
     public static void main(String args[]){
-        System.out.println("Testing SingleTon class");
+         System.out.println("Testing SingleTon class");
         Singleton s1 = Singleton.getInstance();
         Singleton s2 = Singleton.getInstance();
         System.out.println("Singleton s1 reference - " + s1);
